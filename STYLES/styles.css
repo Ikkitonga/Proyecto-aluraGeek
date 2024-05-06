@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* tipografia google fonts */
+    font-family: "Freeman", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    /* color de fondo primario */
+    --bg-color: white;
+    /* color de fondo secundario */
+    --secondary-bg-color: black;
+    /* color de texto */
+    --text-color: blue;
+    /* color principal */
+    --main-color: red;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--secondary-bg-color);
+    padding: 2rem;
+    border-bottom: 2px solid var(--main-color);
+    height: 15vh;
+}
+
+h1 {
+    color: rgb(0, 21, 255);
+    font-size: 2rem;
+}
+
+.h1__resalte {
+    color: var(--main-color);
+}
+
+/* icons */
+
+.fa-solid, .fa-regular {
+    color: rgb(0, 21, 255);
+    font-size: 2rem;
+}
+
+
+/* MAIN */
+
+/* FORMULARIO */
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+}
+
+.formulario h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.formulario_input {
+    width: 35vw;
+    height: 2.5rem;
+    border: 1.5px dotted var(--main-color);
+    border-radius: 0.5rem;
+    text-align: left;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+.formulario_botones {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.formulario_btn {
+    width: 17vw;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
