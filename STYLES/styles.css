@@ -90,3 +90,44 @@ h1 {
     font-size: 1.5rem;
     font-weight: 800;
 }
+
+
+/* tarjetas con productos */
+
+
+.productos {
+    height: 100vh;
+}
+
+.contenedor_productos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productos_tarjeta {
+    width: 200px;
+    height: 250px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.productos_tarjeta img{
+    width: 180px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.producto_titulo {
+    text-align: center;
+}
+
+.productos_precio_tachito {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
