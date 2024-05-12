@@ -17,11 +17,14 @@
 <body>
     <header>
         <div>
-            <i class="fa-solid fa-heart"></i>
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-solid fa-heart"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
         </div>
-        <h1>Alura<span class="h1__resalte">Geek</span></h1>
+        <h1><span class="resalte_alura">ALURA</span> <span class="h1__resalte">Geek</span></h1>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
     </header>
 
     <main>
@@ -30,7 +33,7 @@
 
             <input type="text" class="formulario_input" placeholder="Nombre">
 
-            <input type="number" class="formulario_input" placeholder="Precio">
+            <input type="text" class="formulario_input" placeholder="Alineacion: Heroe o Villano">
 
             <input type="text" class="formulario_input" placeholder="direccion de la imagen">
 
@@ -43,20 +46,22 @@
         <!-- tarjetas con productos -->
 
         <section class="productos">
-            <div class="contenedor_productos">
-                <div class="productos_tarjeta">
-                    <img src="https://camoga.ar/media/catalog/product/cache/17183a23c5d57b885c9e1f3d66234d68/1/6/16e07acc35851523128edeb93bda83f2.jpg" alt="">
-                    <div class="producto_titulo">
-                        <p>Nombre</p>
-                        <div class="productos_precio_tachito">
-                            <p>Precio</p>
-                            <span><i class="fa-solid fa-trash-can"></i></span>
-                        </div>
-                    </div> 
-                </div>
+
+            <div class="contenedor_productos" data-lista>
+                
             </div>
+
         </section>
+
     </main>
+
+    <footer>
+        <p class="footer_parrafo">Trabajo realizado para <span class="">Alura-Oracle</span></p>
+        <p class="footer_parrafo">Idea basada en la marca <span class="resalte_alura">MARVEL</span></p> 
+     </footer>
+    
+
+    <script src="./JAVASCRIPT/mostrarCards.js" type="module"></script>
 </body>
 
 </html>

@@ -1,0 +1,125 @@
+{
+    "productosMarvel": [
+        {
+            "id": 1,
+            "nombre": "Spiderman",
+            "alineacion": "Heroe",
+            "imagen": "./IMAGENES/spiderman.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Duende Verde",
+            "alineacion": "Villano",
+            "imagen": "./IMAGENES/duendeverde.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Thor",
+            "alineacion": "Heroe",
+            "imagen": "./IMAGENES/thor.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Loki",
+            "alineacion": "Villano",
+            "imagen": "./IMAGENES/loki.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Iron Man",
+            "alineacion": "Heroe",
+            "imagen": "./IMAGENES/ironman.jpg"
+        },
+        {
+            "id": 6,
+            "nombre": "Ultron",
+            "alineacion": "Villano",
+            "imagen": "./IMAGENES/ultron.jpg"
+        },
+        {
+            "id": 7,
+            "nombre": "Capitan America",
+            "alineacion": "Heroe",
+            "imagen": "./IMAGENES/capitanamerica.jpg"
+        },
+        {
+            "id": 8,
+            "nombre": "Craneo Rojo",
+            "alineacion": "Villano",
+            "imagen": "./IMAGENES/craneorojo.jpg"
+        },
+        {
+            "id": 9,
+            "nombre": "Hulk",
+            "alineacion": "Heroe",
+            "imagen": "./IMAGENES/hulk.jpg"
+        },
+        {
+            "id": 10,
+            "nombre": "Thanos",
+            "alineacion": "Villano",
+            "imagen": "./IMAGENES/thanos.jpg"
+        },
+        {
+            "id": 11,
+            "nombre": "Pantera Negra",
+            "alineacion": "Heroe",
+            "imagen": "./IMAGENES/panteranegra.jpg"
+        },
+        {
+            "id": 12,
+            "nombre": "Klaw",
+            "alineacion": "Villano",
+            "imagen": "./IMAGENES/klaw.jpg"
+        },     
+        {
+            "id": 13,
+            "nombre": "Star Lord",
+            "alineacion": "Heroe",
+            "imagen": "./IMAGENES/starlord.jpg"
+        },
+        {
+            "id": 14,
+            "nombre": "Ronan",
+            "alineacion": "Villano",
+            "imagen": "./IMAGENES/ronan.jpg"
+        },
+        {
+            "id": 15,
+            "nombre": "Black Widow",
+            "alineacion": "Heroe",
+            "imagen": "./IMAGENES/blackwidow.jpg"
+        },
+        {
+            "id": 16,
+            "nombre": "Taskmaster",
+            "alineacion": "Villano",
+            "imagen": "./IMAGENES/taskmaster.jpg"
+        },
+        {
+            "id": 17,
+            "nombre": "Ant Man",
+            "alineacion": "Heroe",
+            "imagen": "./IMAGENES/antman.jpg"
+        },
+        {
+            "id": 18,
+            "nombre": "Yellow Jacket",
+            "alineacion": "Villano",
+            "imagen": "./IMAGENES/yellowjacket.jpg"
+        },
+        {
+            "id": 19,
+            "nombre": "Capitana Marvel",
+            "alineacion": "Heroe",
+            "imagen": "./IMAGENES/capitanamarvel.jpg"
+        },
+        {
+            "id": 20,
+            "nombre": "Giant Skrull",
+            "alineacion": "Villano",
+            "imagen": "./IMAGENES/giantskrull.jpg"
+        }
+
+    ]
+}

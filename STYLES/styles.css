@@ -11,13 +11,14 @@
 
 :root {
     /* color de fondo primario */
-    --bg-color: white;
+    --bg-color: #16161d;
     /* color de fondo secundario */
     --secondary-bg-color: black;
     /* color de texto */
-    --text-color: blue;
+    --text-color: white;
     /* color principal */
     --main-color: red;
+  
 }
 
 /* HEADER */
@@ -28,28 +29,47 @@ header {
     justify-content: center;
     background-color: var(--secondary-bg-color);
     padding: 2rem;
-    border-bottom: 2px solid var(--main-color);
-    height: 15vh;
+    
 }
 
-h1 {
-    color: rgb(0, 21, 255);
-    font-size: 2rem;
+.resalte_alura {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-weight: 900;
 }
 
 .h1__resalte {
-    color: var(--main-color);
+    color: var(--text-color);
+    text-decoration: overline underline var(--text-color);
+    font-weight: 400;
+    font-size: 2.2rem;
 }
 
 /* icons */
 
-.fa-solid, .fa-regular {
-    color: rgb(0, 21, 255);
+.fa-star{
+    color: var(--text-color);
     font-size: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
 }
 
 
 /* MAIN */
+
+body {
+    background-color: var(--bg-color);
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
 
 /* FORMULARIO */
 
@@ -58,12 +78,13 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 85vh;
+    margin-top: 2rem;
 }
 
 .formulario h3 {
     font-size: 2rem;
     margin-bottom: 2rem;
+    color: var(--text-color);
 }
 
 
@@ -89,6 +110,13 @@ h1 {
     height: 3.5rem;
     font-size: 1.5rem;
     font-weight: 800;
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+.formulario_btn:hover{
+    background-color: var(--text-color);
+    color: var(--main-color);
 }
 
 
@@ -96,29 +124,34 @@ h1 {
 
 
 .productos {
-    height: 100vh;
+    margin-top: 1rem;
 }
 
 .contenedor_productos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1rem;
 }
 
 .productos_tarjeta {
     width: 200px;
-    height: 250px;
-    background-color: aqua;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 15px;
+    gap: 1.5rem;
+    border: 3px solid var(--main-color);
 }
 
-.productos_tarjeta img{
+.productos_tarjeta:hover {
+    box-shadow: 0 0 20px var(--main-color);
+}
+
+.producto_img{
     width: 180px;
-    height: auto;
+    height: 180px;
     border-radius: 15px;
 }
 
@@ -126,8 +159,39 @@ h1 {
     text-align: center;
 }
 
-.productos_precio_tachito {
+.producto_nombre {
+    font-size: 1.5em;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+.producto_alineacion {
+    font-size: 1.1em;
+    color: var(--text-color);
+    
+}
+
+.productos_alineacion_tachito {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.fa-trash-can {
+    color: var(--main-color);
+    font-size: 1.3rem;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--secondary-bg-color);
+    padding: 2rem;
+}
+
+.footer_parrafo {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 1.5rem;
 }
