@@ -11,6 +11,7 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./STYLES/styles.css">
+    <link rel="stylesheet" href="./STYLES/stylesMediaQuerys.css">
     <title>AluraGeek</title>
 </head>
 
@@ -28,18 +29,18 @@
     </header>
 
     <main>
-        <form class="formulario">
+        <form class="formulario" data-formulario>
             <h3>Ingrese los datos del producto</h3>
 
-            <input type="text" class="formulario_input" placeholder="Nombre">
+            <input type="text" name="nombre" class="formulario_input" placeholder="Nombre" id="nombre" data-nombre>
 
-            <input type="text" class="formulario_input" placeholder="Alineacion: Heroe o Villano">
+            <input type="text" name="alineacion" class="formulario_input" placeholder="Alineacion: Heroe o Villano" id="alineacion" data-alineacion>
 
-            <input type="text" class="formulario_input" placeholder="direccion de la imagen">
+            <input type="text" name="imagen" class="formulario_input" placeholder="direccion URL de la imagen" id="imagen" data-imagen>
 
             <div class="formulario_botones">
-                <button class="formulario_btn enviar">Enviar</button>
-                <button class="formulario_btn limpiar">Limpiar</button>
+                <button class="formulario_btn enviar" type="submit">Enviar</button>
+                <!-- <button class="formulario_btn limpiar">Limpiar</button> -->
             </div>
         </form>
 
@@ -62,6 +63,8 @@
     
 
     <script src="./JAVASCRIPT/mostrarCards.js" type="module"></script>
+    <script src="./JAVASCRIPT/crearPersonaje.js" type="module"></script>
+    <script src="./JAVASCRIPT/borrarPersonaje.js" type="module"></script>
 </body>
 
 </html>

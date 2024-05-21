@@ -1,0 +1,64 @@
+@media screen and (max-width: 1000px){
+    .contenedor_productos {
+        grid-template-columns: 50% 50%
+    }
+
+    .formulario h3 {
+        font-size: 1.5rem;
+    }
+
+    .formulario_input {
+        font-size: 0.8rem
+    }
+}
+
+@media screen and (max-width: 768px){
+    main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formulario {
+        position: static;
+    }
+
+    .contenedor_productos {
+        grid-template-columns: 33% 33% 33%
+    }
+
+    .formulario_input {
+        width: 50vw;
+    }
+}   
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 1.5rem;
+    }
+    .h1__resalte {
+        font-size: 1.5rem;
+    }
+
+    .resalte_alura {
+        font-size: 1.5rem;
+    }
+
+    .fa-star {
+        display: none;
+    }
+
+    .contenedor_productos {
+        grid-template-columns: auto auto
+    }
+
+    .formulario_input {
+        width: 50vw;
+    }
+
+    .formulario_btn {
+        width: 20vw;
+        font-size: 1rem;
+    }
+}
+

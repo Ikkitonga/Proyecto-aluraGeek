@@ -4,7 +4,7 @@
     box-sizing: border-box;
 
     /* tipografia google fonts */
-    font-family: "Freeman", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -18,7 +18,7 @@
     --text-color: white;
     /* color principal */
     --main-color: red;
-  
+
 }
 
 /* HEADER */
@@ -29,7 +29,6 @@ header {
     justify-content: center;
     background-color: var(--secondary-bg-color);
     padding: 2rem;
-    
 }
 
 .resalte_alura {
@@ -47,7 +46,7 @@ header {
 
 /* icons */
 
-.fa-star{
+.fa-star {
     color: var(--text-color);
     font-size: 2rem;
     margin-left: 0.5rem;
@@ -71,6 +70,9 @@ main {
     margin-bottom: 3rem;
 }
 
+
+
+
 /* FORMULARIO */
 
 .formulario {
@@ -79,6 +81,8 @@ main {
     align-items: center;
     flex-direction: column;
     margin-top: 2rem;
+    position: sticky;
+    top: 50px;
 }
 
 .formulario h3 {
@@ -89,14 +93,15 @@ main {
 
 
 .formulario_input {
-    width: 35vw;
+    width: 25vw;
     height: 2.5rem;
     border: 1.5px dotted var(--main-color);
     border-radius: 0.5rem;
     text-align: left;
     padding: 5px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: 1rem 0;
+    
 }
 
 .formulario_botones {
@@ -112,9 +117,10 @@ main {
     font-weight: 800;
     background-color: var(--main-color);
     color: var(--text-color);
+    
 }
 
-.formulario_btn:hover{
+.formulario_btn:hover {
     background-color: var(--text-color);
     color: var(--main-color);
 }
@@ -130,7 +136,8 @@ main {
 .contenedor_productos {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    gap: 1rem;
+    margin: 10px 0;
+    gap: 0.5rem;
 }
 
 .productos_tarjeta {
@@ -149,7 +156,7 @@ main {
     box-shadow: 0 0 20px var(--main-color);
 }
 
-.producto_img{
+.producto_img {
     width: 180px;
     height: 180px;
     border-radius: 15px;
@@ -157,18 +164,21 @@ main {
 
 .producto_titulo {
     text-align: center;
+    
 }
 
 .producto_nombre {
     font-size: 1.5em;
     color: var(--text-color);
     margin-bottom: 15px;
+    font-weight: 200;
 }
 
 .producto_alineacion {
     font-size: 1.1em;
+    font-weight: 300;
     color: var(--text-color);
-    
+
 }
 
 .productos_alineacion_tachito {
@@ -183,6 +193,11 @@ main {
     font-size: 1.3rem;
 }
 
+.fa-trash-can:hover {
+    transform: scale(1.1);
+    color: var(--text-color);
+}
+
 /* footer */
 
 footer {
@@ -195,3 +210,7 @@ footer {
     text-align: center;
     font-size: 1.5rem;
 }
+
+
+
+
